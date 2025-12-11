@@ -1,5 +1,7 @@
 # MiniGames by hack_updt
 
+<img width="1894" height="648" alt="Screenshot 2025-12-11 at 11 47 32 pm" src="https://github.com/user-attachments/assets/f41e06c6-14e0-4e17-b2ef-c717fb23567a" />
+
 A collection of classic arcade games optimized for ESP32 with an OLED display, offering a compact and portable gaming experience.
 
 ---
@@ -39,13 +41,13 @@ To build your **MiniGames ESP32 Gameboy**, you'll need:
 
 - **ESP32 Development Board** (e.g., ESP32 DevKitC)  
 - **OLED Display**: 128x64 SSD1306 OLED (I2C interface)  
-  - `PIN_SCL`: GPIO 22  
-  - `PIN_SDA`: GPIO 21  
+  - `PIN_SCL`: GPIO 9  
+  - `PIN_SDA`: GPIO 8  
 - **Buttons**: 4 momentary push buttons  
-  - `PIN_BUTTON_UP`: GPIO 4  
-  - `PIN_BUTTON_DOWN`: GPIO 5  
-  - `PIN_BUTTON_LEFT`: GPIO 15  
-  - `PIN_BUTTON_RIGHT`: GPIO 18  
+  - `PIN_BUTTON_UP`: GPIO 0  
+  - `PIN_BUTTON_DOWN`: GPIO 1  
+  - `PIN_BUTTON_LEFT`: GPIO 2  
+  - `PIN_BUTTON_RIGHT`: GPIO 3  
 - **Breadboard & Jumper Wires**  
 - **Power Supply**: Micro-USB or 5V external
 
